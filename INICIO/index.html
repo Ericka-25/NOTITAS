@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title> InicioNotitas</title>
+</head>
+<body>
+    <div class="conteiner">
+        <form action="">
+            <div id="registroForm">
+                <h1>Inicio de Sesión</h1>
+                <h6>¡Bienvenido!</h6>
+                <div class="caja">
+                    <input type="text" placeholder="Usuario" id="loginUsername" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="caja">
+                    <input type="password" placeholder="PIN"  id="loginPassword" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <div class="recordar">
+                    <label><input type="checkbox"> Recordarme</label>
+                    <a href="#">¿Olvidaste el PIN?</a>
+                </div>
+                <button class="btn" type="submit" onclick="login()"> Inicio</button>
+            </div>
+                <div class="registro">
+                    <p id="remember">¿No recuerdas tu cuenta? </p>
+                <a id="remember2" onclick="showRegister()"> Registrate</a>
+                <div id="registerMessage" class="message"></div>
+            </div>
+
+            <div id="loginForm" class="form" style="display: none">
+                <h1>Registro de usuario</h1>
+                <div class="caja">
+                    <input type="text" placeholder="Usuario" id="registerUsername" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="caja">
+                    <input type="password" placeholder="PIN"  id="registerPassword" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+                <button class="btn" type="submit" onclick="register()"> Registrar</button>
+                 <a onclick="showLogin()"> iniciar sesion</a>
+
+                <div id="loginMessage" class="message"></div>
+
+            </div>
+
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
