@@ -5,6 +5,10 @@ proyecto de encriptación cifrado cesar
 Este README ahora incluye una nota importante que especifica claramente que la última actualización se encuentra en la rama `master`.
 NO EN EL MAIN , TODAS LAS ACTUALIZACIONES ESTAN EN LA RAMA MASTER.
 
+![image](https://github.com/Ericka-25/NOTITAS/assets/80068890/bc324ec4-2e1d-4bad-b93d-6c279e7c3fc5)
+
+## INTRODUCCION
+
 Notitas es una aplicación web que permite a los usuarios mantener sus notas privadas y seguras mediante un sistema de doble seguridad que incluye autenticación de usuario y un PIN. Las notas se encriptan utilizando el cifrado César para garantizar que solo puedan ser leídas con el PIN correcto.
 
 ## Cronología del Usuario
