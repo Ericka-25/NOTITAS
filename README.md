@@ -36,3 +36,4 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
    ```bash
    git clone https://github.com/tu-usuario/tu-repositorio.git
 
+![image](https://github.com/Ericka-25/NOTITAS/assets/80068890/719711c3-709b-4ea8-b96b-f7f744d72ed6)
